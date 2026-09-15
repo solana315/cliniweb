@@ -26,7 +26,7 @@ function App() {
         <Route path="/ver-exames" element={<VerExames />} />
         <Route path="/editar-exames" element={<EditarExames />} />
         <Route path="/editar-detalhes" element={<EditarDetalhes />} />
-        <Route path="/" element={<Navigate to="/login" replace />} />
+        <Route path="/" element={<Navigate to="/pacientes" replace />} />
       </Routes>
     </div>
   )
